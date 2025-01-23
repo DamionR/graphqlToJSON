@@ -52,7 +52,7 @@ To run this project locally, ensure you have the following installed:
 
 To get started, clone the repository using:
 
-`git clone https://github.com/your-username/graphqlToJSON.git && cd graphqlToJSON`
+`git clone https://github.com/DamionR/graphqlToJSON.git && cd graphqlToJSON`
 
 ### Install Dependencies
 

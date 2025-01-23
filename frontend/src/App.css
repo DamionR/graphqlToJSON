@@ -1,0 +1,205 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Header Styles */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Toggle Mode Buttons */
+.toggle-mode {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toggle-mode label {
+  margin: 0 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.toggle-mode input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Form and Input Styles */
+form {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+input[type="file"] {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Instructions Box */
+.instructions {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.instructions p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Response Box Styles */
+.response-box {
+  position: relative;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+pre {
+  font-family: monospace;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Copy Button */
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
+
+.copy-button.copied {
+  background-color: #28a745;
+}
+
+/* Download Button */
+.download-button {
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Message Styles */
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .App {
+    padding: 15px;
+  }
+
+  textarea {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+
+  .copy-button,
+  .download-button {
+    font-size: 0.8rem;
+  }
+
+  .response-box {
+    max-height: 200px;
+  }
+}

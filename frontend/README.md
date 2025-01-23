@@ -1,5 +1,27 @@
 # GraphQL to JSON Converter
 
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [How it Works](#how-it-works)
+  - [Frontend](#frontend)
+  - [Backend](#backend)
+- [Key Features of the App](#key-features-of-the-app)
+- [Installation and Usage](#installation-and-usage)
+  - [Prerequisites](#prerequisites)
+  - [Clone the Repository](#clone-the-repository)
+  - [Install Dependencies](#install-dependencies)
+  - [Running the Application](#running-the-application)
+- [How to Use the App](#how-to-use-the-app)
+- [Example Queries](#example-queries)
+  - [Example 1: Simple Query](#example-1-simple-query)
+  - [Example 2: Query with Arguments](#example-2-query-with-arguments)
+  - [Example 3: Mutation](#example-3-mutation)
+- [API Usage](#api-usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Overview
 
 The **GraphQL to JSON Converter** is a web application that enables users to convert GraphQL queries and mutations into JSON format, which can be easily processed by other applications or systems. This tool allows users to interact with a GraphQL API, input a valid GraphQL query, and get the corresponding JSON representation of that query. It can handle complex queries, mutations, fragments, and more.
